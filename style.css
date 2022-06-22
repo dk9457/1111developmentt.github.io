@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: red;
+    width: 15vw;
+    height: 100vh;
+    cursor: pointer;
+}
+.main{
+    background-color: yellow;
+    width: 90vw;
+}
+.infocontainer{
+    background-color:palevioletred;
+    height: 78vh;
+    width: 80vw;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+}
+.sidebar nav{
+
+    padding: 7px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.picc{
+    height: 78vh;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
